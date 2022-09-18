@@ -934,7 +934,7 @@ section {
 /* serive section
 ---------------------------------*/
 .service_icon_bg_1 {
-  background-image: url(/assets/img/service_icon_bg_1.png.webp);
+  background-image: url(../img/service_icon_bg_1.png.webp);
 }
 
 /* line 4, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_service.scss */
@@ -1633,7 +1633,7 @@ Contact information
 ---------------------------------------------------------------*/
 /* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_anipat.scss */
 .anipat_bg_1 {
-  background-image: url(/assets/img/contact_bg.png.webp);
+  background-image: url(../img/contact_bg.png.webp);
 }
 
 /* line 5, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_anipat.scss */
