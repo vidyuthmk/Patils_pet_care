@@ -8,6 +8,37 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+article,
+aside,
+dialog,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+  display: block;
+}
 body {
   background: #fff;
   color: #444;
@@ -44,7 +75,190 @@ h6 {
   margin: 0 0 20px 0;
   padding: 0;
 }
+.section_title h3 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #191d34;
+  font-family: "Poppins", sans-serif;
+}
 
+/* line 8, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+.section_title h3 span {
+  font-weight: 300;
+}
+
+@media (max-width: 767px) {
+  /* line 2, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+  .section_title h3 {
+    font-size: 27px;
+    line-height: 33px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 2, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+  .section_title h3 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 2, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+  .section_title h3 {
+    font-size: 33px;
+    line-height: 40px;
+  }
+}
+
+/* line 24, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+.section_title p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #909092;
+  font-weight: 400;
+}
+
+/* line 31, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+
+@media (max-width: 767px) {
+  /* line 31, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+}
+
+/* line 38, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+
+/* line 43, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+
+/* line 51, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+
+@media (max-width: 767px) {
+  /* line 43, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 43, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+}
+
+/* line 73, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+
+@media (max-width: 767px) {
+  /* line 73, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 73, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+}
+
+/* line 85, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+
+@media (max-width: 767px) {
+  /* line 85, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 85, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+}
+
+/* line 97, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+
+@media (max-width: 767px) {
+  /* line 97, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 97, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+}
+
+/* line 106, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+
+@media (max-width: 767px) {
+  /* line 106, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+}
+
+/* line 113, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+
+@media (max-width: 767px) {
+  /* line 113, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 113, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 113, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+}
+
+/* line 126, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+.mb-95 {
+  margin-bottom: 90px;
+}
+
+@media (max-width: 767px) {
+  /* line 126, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+  .mb-95 {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 126, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+  .mb-95 {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 126, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+  .mb-95 {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 4, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slick-nav.scss */
+  .mobile_menu {
+    position: absolute;
+    right: 0px;
+    width: 100%;
+    z-index: 9;
+  }
+}
+
+/* line 13, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slick-nav.scss */
+
+/* line 28, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slick-nav.scss */
+
+/* line 32, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slick-nav.scss */
+
+@media (max-width: 767px) {
+  /* line 35, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slick-nav.scss */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 35, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slick-nav.scss */
+}
+
+/* line 44, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slick-nav.scss */
+
+/* line 55, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slick-nav.scss */
+
+@media (max-width: 767px) {
+  /* line 12, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slick-nav.scss */
+}
+
+/* line 72, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slick-nav.scss */
+
+/* line 78, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slick-nav.scss */
+
+/* line 92, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slick-nav.scss */
+
+/* line 107, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slick-nav.scss */
+
+/* line 122, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slick-nav.scss */
+
+/* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -2118,4 +2332,163 @@ h6 {
 .footer .socail_links ul li a:hover {
   color: #eb592d !important;
   border-color: transparent;
+}
+
+/*
+ * SlickNav Responsive Mobile Menu v1.0.10
+ * (c) 2016 Josh Cope
+ * licensed under MIT
+ */
+.slicknav_btn,
+.slicknav_nav .slicknav_item {
+  cursor: pointer;
+}
+.slicknav_menu,
+.slicknav_menu * {
+  box-sizing: border-box;
+}
+.slicknav_btn {
+  position: relative;
+  display: block;
+  float: right;
+  padding: 0.438em 0.625em;
+  line-height: 1.125em;
+}
+.slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
+  margin-top: 0.188em;
+}
+.slicknav_menu .slicknav_menutxt {
+  display: block;
+  line-height: 1.188em;
+  float: left;
+  color: #fff;
+  font-weight: 700;
+  text-shadow: 0 1px 3px #000;
+}
+.slicknav_menu .slicknav_icon {
+  float: left;
+  width: 1.125em;
+  height: 0.875em;
+  margin: 0.188em 0 0 0.438em;
+}
+.slicknav_menu .slicknav_icon:before {
+  background: 0 0;
+  width: 1.125em;
+  height: 0.875em;
+  display: block;
+  content: "";
+  position: absolute;
+}
+.slicknav_menu .slicknav_no-text {
+  margin: 0;
+}
+.slicknav_menu .slicknav_icon-bar {
+  display: block;
+  width: 1.125em;
+  height: 0.125em;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.slicknav_menu:after,
+.slicknav_menu:before {
+  content: " ";
+  display: table;
+}
+.slicknav_menu:after {
+  clear: both;
+}
+.slicknav_nav li,
+.slicknav_nav ul {
+  display: block;
+}
+.slicknav_nav .slicknav_arrow {
+  font-size: 0.8em;
+  margin: 0 0 0 0.4em;
+}
+.slicknav_nav .slicknav_item a {
+  display: inline;
+}
+.slicknav_nav .slicknav_row,
+.slicknav_nav a {
+  display: block;
+}
+.slicknav_nav .slicknav_parent-link a {
+  display: inline;
+}
+.slicknav_menu {
+  *zoom: 1;
+  font-size: 16px;
+  background: #4c4c4c;
+  padding: 5px;
+}
+.slicknav_nav,
+.slicknav_nav ul {
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+}
+.slicknav_menu .slicknav_icon-bar {
+  background-color: #fff;
+}
+.slicknav_btn {
+  margin: 5px 5px 6px;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #222;
+}
+.slicknav_nav {
+  clear: both;
+  color: #fff;
+  margin: 0;
+  font-size: 0.875em;
+}
+.slicknav_nav ul {
+  margin: 0 0 0 20px;
+}
+.slicknav_nav .slicknav_row,
+.slicknav_nav a {
+  padding: 5px 10px;
+  margin: 2px 5px;
+}
+.slicknav_nav .slicknav_row:hover {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background: #ccc;
+  color: #fff;
+}
+.slicknav_nav a {
+  text-decoration: none;
+  color: #fff;
+}
+.slicknav_nav a:hover {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background: #ccc;
+  color: #222;
+}
+.slicknav_nav .slicknav_txtnode {
+  margin-left: 15px;
+}
+.slicknav_nav .slicknav_item a,
+.slicknav_nav .slicknav_parent-link a {
+  padding: 0;
+  margin: 0;
+}
+.slicknav_brand {
+  float: left;
+  color: #fff;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 7px 12px;
+  height: 44px;
 }
